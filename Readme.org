@@ -1,0 +1,7 @@
+#+TITLE: File merge tool
+#+OPTIONS: toc:2
+A simple python script to merge text files without duplicating entries. An example is in the link:
+#+attr_latex: width=0.5\textwidth
+#+ATTR_HTML: width="3%"
+#+caption: Merge tool help and usage example
+[[file:merge.png][here]]
