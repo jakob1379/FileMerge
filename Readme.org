@@ -5,3 +5,5 @@ A simple python script to merge text files without duplicating entries. An examp
 #+ATTR_HTML: width="3%"
 #+caption: Merge tool help and usage example
 [[file:merge.png][here]]
+
+Please open an issue if any wanted/essential features are missing.
