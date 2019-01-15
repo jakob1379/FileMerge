@@ -12,14 +12,15 @@ outlines = []
 for fname in args.filenames:
     with open(fname) as infile:
         for line in infile:
+            line = line.strip("\n")
             if line not in outlines:
                 outlines.append(line)
-                
+
 if args.sort:
     outlines.sort()
 
 with open(args.master, 'w') as outfile:
     for line in outlines:
-        outfile.write(line)
-    
+        outfile.write(line+'\n')
+
 print("merged to '" + str(args.master) + "'")

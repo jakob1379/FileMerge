@@ -1,4 +1,6 @@
 # -*- mode: gitignore; -*-
+
+# Emacs files 2
 *~
 \#*\#
 /.emacs.desktop
